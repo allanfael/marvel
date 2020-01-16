@@ -23,8 +23,8 @@ import {
   TextFooter,
 } from './styles';
 
-const PUBLIC_KEY = 'xxxx';
-const PRIVATE_KEY = 'xxxx';
+const PUBLIC_KEY = 'xxxxx';
+const PRIVATE_KEY = 'xxxxx';
 
 export default function Main({navigation}) {
   const timestamp = Number(new Date());
