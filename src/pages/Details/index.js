@@ -6,12 +6,11 @@ import {
   ImageCard,
   NameHeroCard,
   DescritionHeroCard,
+  ScrollView,
 } from './styles';
-import {ScrollView} from 'react-native-gesture-handler';
 
 export default function Details({navigation}) {
   const hero = navigation.getParam('item');
-  console.log(hero);
 
   return (
     <Container>
