@@ -1,4 +1,5 @@
 import React from 'react';
+import {ScrollView} from 'react-native';
 
 import {
   Container,
@@ -6,7 +7,6 @@ import {
   ImageCard,
   NameHeroCard,
   DescritionHeroCard,
-  ScrollView,
 } from './styles';
 
 export default function Details({navigation}) {
