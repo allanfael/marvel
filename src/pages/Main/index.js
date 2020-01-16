@@ -44,7 +44,6 @@ export default function Main({navigation}) {
       )
       .then(res => {
         setHero([...hero, ...res.data.data.results]);
-        console.log(hero);
         setLoading(false);
       })
       .catch(err => {
