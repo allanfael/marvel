@@ -89,7 +89,7 @@ export const ItemSeparator = styled.View`
   margin-bottom: 10px;
 `;
 
-//ListFooterComponent
+//ListFooter
 
 export const Footer = styled.View`
   width: 200px;
