@@ -61,7 +61,7 @@ export const TextName = styled.Text`
   justify-content: center;
   font-size: 18px;
   font-family: 'Arial';
-  margin-left: 65px;
+  margin-left: 70px;
 `;
 
 export const List = styled.FlatList``;
